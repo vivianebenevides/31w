@@ -12,9 +12,10 @@ if (have_posts()):
         // the_permalink(); ?>
         <h1><a href="<?php the_permalink(); ?>"><?= get_the_title(); ?></a></h1>
         
-        <?php echo wp_trim_words(get_the_excerpt(), 4);
+        <?php 
         // the_content();
         // the_excerpt();
+        echo wp_trim_words(get_the_excerpt(), 4);
     endwhile;
 endif;
 ?>   
