@@ -342,19 +342,22 @@ html {
   flex-wrap: wrap;
   list-style-type: none;
   margin-left: auto;
+  font-size: 20px;
 }
 .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
 }
 .menu-entete-container .menu .menu-item a {
   padding: 3px 5px;
-  color: #555;
+  text-decoration: none;
+  border: 2px solid rgb(215, 142, 5);
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(255, 178, 35);
 }
 .menu-entete-container .menu .menu-item a:hover {
-  color: #0f0;
-}
-
-/* --------------------------------- BASE */
+  color: #000;
+} /* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
 }
