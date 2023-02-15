@@ -7,7 +7,7 @@
         flex-wrap: wrap;
         list-style-type: none;
         margin-left: auto;
-        font-size: 20px;
+        font-size: clamp(1.125rem, 1.0992rem + 1.7206vw, 3.25rem);
     
     .menu-item { // li
         flex : 1 0 70px;
