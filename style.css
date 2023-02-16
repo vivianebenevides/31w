@@ -368,6 +368,18 @@ html {
   color: #000;
 }
 
+.blocflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blocflex article {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  flex: 1 0 300px;
+}
+
 /* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
