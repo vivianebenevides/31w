@@ -26,7 +26,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background-color: rgb(255, 255, 216);
 }
 
 /* Sections
@@ -52,12 +51,8 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  color: rgba(236, 124, 11, 0.902)
 }
 
-h2 {
-  color : #A94331;
-}
 /* Grouping content
    ========================================================================== */
 /**
@@ -86,7 +81,6 @@ pre {
  */
 a {
   background-color: transparent;
-  color : #A94331;
 }
 
 /**
@@ -342,6 +336,15 @@ html {
 }
 
 /* -------------------------- COMPOSANT */
+.logomenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-entete-container {
+  flex: 1;
+}
 .menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;
@@ -363,7 +366,9 @@ html {
 }
 .menu-entete-container .menu .menu-item a:hover {
   color: #000;
-} /* --------------------------------- BASE */
+}
+
+/* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
 }
