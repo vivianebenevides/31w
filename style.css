@@ -381,6 +381,11 @@ body {
   background-color: white;
 }
 
+.recherche article {
+  background-color: azure;
+  margin: 10px;
+}
+
 /* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
