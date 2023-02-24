@@ -4,8 +4,10 @@
 */
 get_header() ?>
 <main>
-    <code>front-page.php</code>
-    <h3>index.php</h3>
+    <div class="liensfrontpage">
+        <code>front-page.php</code>
+        <h3>index.php</h3>
+    </div>
     <section class="blocflex">
         <?php 
         if (have_posts()):

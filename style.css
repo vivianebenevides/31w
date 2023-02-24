@@ -336,6 +336,14 @@ html {
 }
 
 /* -------------------------- COMPOSANT */
+.site__entete {
+  text-align: center;
+}
+.site__entete a {
+  color: #ed9a09;
+  text-decoration: none;
+}
+
 .logomenu {
   display: flex;
   justify-content: space-between;
@@ -391,9 +399,23 @@ html {
   background-color: #fff0d5;
   text-align: center;
 }
+.blocflex a {
+  color: #ed9a09;
+}
+.blocflex a:hover {
+  color: black;
+}
 
 body {
   background-color: white;
+}
+
+.liensfrontpage {
+  text-align: center;
+}
+
+footer h3 {
+  text-align: center;
 }
 
 .recherche article {

@@ -1,5 +1,10 @@
 .site__entete {
+    text-align: center;
 
+    a {
+        color: #ed9a09;;
+        text-decoration: none;
+    }
 }
 
 .logomenu{
@@ -21,6 +26,11 @@
     gap: 30px;
     //flex-wrap: wrap;
 }
+
+// .recherche {
+//     display: flex;
+//     gap: 0;
+// }
 
 .menu-entete-container {
 flex: 1;
