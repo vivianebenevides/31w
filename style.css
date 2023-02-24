@@ -340,6 +340,19 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #faa20a;
+}
+
+.logomenu img {
+  margin-left: 30px;
+}
+
+.menusearch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 30px;
+  gap: 30px;
 }
 
 .menu-entete-container {
@@ -348,13 +361,13 @@ html {
 .menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
   list-style-type: none;
-  margin-left: auto;
-  font-size: clamp(1.375rem, 1.3333rem + 0.1333vw, 1.5rem);
+  font-size: clamp(1.125rem, 1.0417rem + 0.2667vw, 1.375rem);
+  gap: 30px;
 }
 .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
+  min-width: 150px;
 }
 .menu-entete-container .menu .menu-item a {
   font-family: "Roboto", sans-serif;
@@ -362,7 +375,7 @@ html {
   color: black;
 }
 .menu-entete-container .menu .menu-item a:hover {
-  color: rgb(242, 159, 3);
+  color: white;
 }
 
 .blocflex {
@@ -375,6 +388,8 @@ html {
   padding: 5px;
   border: 1px solid #aaa;
   flex: 1 0 300px;
+  background-color: #fff0d5;
+  text-align: center;
 }
 
 body {

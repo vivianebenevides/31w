@@ -13,7 +13,7 @@ get_header() ?>
                 // the_title('<h1>','</h1>');
                 // the_permalink(); ?>
                 <article>
-                    <h3><a href="<?php the_permalink(); ?>"><?= get_the_title(); ?></a></h3>
+                    <h5><a href="<?php the_permalink(); ?>"><?= get_the_title(); ?></a></h5>
                     <p><?php echo wp_trim_words(get_the_excerpt(), 4);?></p>
                 </article>
             <?php endwhile; ?>
