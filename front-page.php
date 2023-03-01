@@ -3,7 +3,7 @@
     Modèle index.php représente le modèle par défaut du thème
 */
 get_header() ?>
-<main>
+<main class="site__main">
     <div class="liensfrontpage">
         <code>front-page.php</code>
         <h3>index.php</h3>
