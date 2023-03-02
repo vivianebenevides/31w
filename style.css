@@ -348,7 +348,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #faa20a;
+  background-color: #ffffff;
 }
 
 .logomenu img {
@@ -380,10 +380,10 @@ html {
 .menu-entete-container .menu .menu-item a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: black;
+  color: #DB8449;
 }
 .menu-entete-container .menu .menu-item a:hover {
-  color: white;
+  color: #548195;
 }
 
 .blocflex {
@@ -479,7 +479,7 @@ p {
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: antiquewhite;
+  background-color: #ffffff;
 }
 
 .site__main {
@@ -489,12 +489,12 @@ p {
 
 .site__footer {
   grid-area: footer;
-  background-color: antiquewhite;
+  background-color: #DB8449;
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgb(47, 148, 210);
+  background-color: #548195;
 }
 
 /* body ou un conteneur globale */

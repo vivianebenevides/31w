@@ -5,7 +5,7 @@
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: antiquewhite;
+  background-color: #ffffff;
 }
 
 .site__main {
@@ -15,12 +15,12 @@
 
 .site__footer {
   grid-area: footer;
-  background-color: antiquewhite;
+  background-color: #DB8449;
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgb(47, 148, 210);
+  background-color: #548195;
 }
 
 /* body ou un conteneur globale */
