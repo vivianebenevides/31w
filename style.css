@@ -391,7 +391,8 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.blocflex article {
+
+.blocflex__article {
   margin: 10px;
   padding: 5px;
   border: 1px solid #aaa;
@@ -399,11 +400,17 @@ html {
   background-color: #fff0d5;
   text-align: center;
 }
-.blocflex a {
+
+a {
   color: #ed9a09;
 }
-.blocflex a:hover {
+
+a:hover {
   color: black;
+}
+
+.blocflex__galerie {
+  flex: 1 0 100%;
 }
 
 body {

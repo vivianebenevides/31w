@@ -1,8 +1,10 @@
 .blocflex {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    article {
+    flex-wrap: wrap;    
+}
+
+.blocflex__article {
         margin: 10px;
         padding: 5px;
         border : 1px solid #aaa;
@@ -16,4 +18,8 @@
     a:hover {
         color: black;
     }
-}
+
+.blocflex__galerie {
+        flex: 1 0 100%;
+        
+    }
