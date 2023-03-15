@@ -430,6 +430,31 @@ footer h3 {
   margin: 10px;
 }
 
+.menu-cours-container .menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1000px) {
+  .menu-cours-container .menu {
+    flex-direction: column;
+  }
+}
+.menu-cours-container .menu .menu-item {
+  list-style-type: none;
+}
+.menu-cours-container .menu .menu-item a .cours__sigle {
+  padding: 3px;
+}
+.menu-cours-container .menu .menu-item a .cours__titre {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .menu-cours-container .menu .menu-item a .cours__titre {
+    display: block;
+  }
+}
+
 /* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
