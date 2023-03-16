@@ -18,7 +18,7 @@
                     'container' => 'nav'
                 )); ?>
                 <?= get_search_form(); ?>
-                <label for="chkBurger">
+                <label for="chkBurger" class="burger">
                 <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32">
                 </label>
             </div>
