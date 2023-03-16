@@ -357,9 +357,9 @@ html {
 
 .menusearch {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: flex-start;
   align-items: flex-end;
-  flex-direction: column-reverse;
 }
 @media screen and (min-width: 1000px) {
   .menusearch {
@@ -375,10 +375,19 @@ html {
 }
 .menu-entete-container .menu {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
   list-style-type: none;
   font-size: clamp(1.125rem, 1.0417rem + 0.2667vw, 1.375rem);
   gap: 30px;
+}
+@media screen and (min-width: 400px) {
+  .menu-entete-container .menu {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
 .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
