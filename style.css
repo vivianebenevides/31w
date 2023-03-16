@@ -340,7 +340,7 @@ html {
   text-align: center;
 }
 .site__entete a {
-  color: #ed9a09;
+  color: #ae3f26;
   text-decoration: none;
 }
 
@@ -348,7 +348,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: rgb(243, 239, 239);
 }
 
 .logomenu img {
@@ -358,9 +358,16 @@ html {
 .menusearch {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  margin-right: 30px;
-  gap: 30px;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 1000px) {
+  .menusearch {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+  }
 }
 
 .menu-entete-container {
@@ -378,12 +385,18 @@ html {
   min-width: 150px;
 }
 .menu-entete-container .menu .menu-item a {
+  white-space: nowrap;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: #DB8449;
+  color: #ae3f26;
 }
 .menu-entete-container .menu .menu-item a:hover {
-  color: #548195;
+  color: #590000;
+}
+
+.recherche {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .blocflex {
@@ -397,16 +410,16 @@ html {
   padding: 5px;
   border: 1px solid #aaa;
   flex: 1 0 300px;
-  background-color: #fff0d5;
+  background-color: rgb(243, 239, 239);
   text-align: center;
 }
 
 a {
-  color: #ed9a09;
+  color: #590000;
 }
 
 a:hover {
-  color: black;
+  color: #302421;
 }
 
 .blocflex__galerie {
@@ -423,9 +436,10 @@ body {
 
 footer h3 {
   text-align: center;
+  color: #ffffff;
 }
 
-.recherche article {
+.main__recherche article {
   background-color: azure;
   margin: 10px;
 }
@@ -511,7 +525,7 @@ p {
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: #ffffff;
+  background-color: rgb(243, 239, 239);
 }
 
 .site__main {
@@ -521,12 +535,12 @@ p {
 
 .site__footer {
   grid-area: footer;
-  background-color: #DB8449;
+  background-color: #590000;
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: #548195;
+  background-color: #ae3f26;
 }
 
 /* body ou un conteneur globale */
