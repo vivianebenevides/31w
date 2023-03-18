@@ -2,7 +2,7 @@
 ## Thème et extension
 ### Auteur: Viviane Silva
 #### Objectifs
-##### Créer un thème qui aura les caractéristiques suivantes:
+#### Créer un thème qui aura les caractéristiques suivantes:
 - Entièrement adaptatif
 - Plusieurs menus
 - Entête de page
@@ -13,6 +13,6 @@
 https://aecweb22.sg-host.com/
 
 #### Lien GitHub
-https://github.com/vivianebenevides/31w/tree/tp1
-https://github.com/vivianebenevides/carrousel-31w/tree/tp1 
+- 31w : https://github.com/vivianebenevides/31w/tree/tp1
+- Carrousel : https://github.com/vivianebenevides/carrousel-31w/tree/tp1 
 
