@@ -1,18 +1,18 @@
-# Exercice #2
-## Améliorer la structure généreale du thème
+# TP1
+## Thème et extension
 ### Auteur: Viviane Silva
 #### Objectifs
-- Formater en scss l'affichage de fichier markdown
-- Créer des modèles pour afficher des archives d'article
-- Améliorer de module front-page.php
-- Création de menu
-- Créer un site adaptatif en utilisant l'approche mobile-first
-- Créer un minimum de 10 commits 
-- Déployer le site local vers un serveur distant
+##### Créer un thème qui aura les caractéristiques suivantes:
+- Entièrement adaptatif
+- Plusieurs menus
+- Entête de page
+- Pied de page
+- Le thème affichera différents types d'article facilement accessible à partir de la page d'accueuil. Le site contiendra aussi une extension permettant de contrôler un carrousel d'image.
 
 #### Lien SiteGround
 https://aecweb22.sg-host.com/
 
 #### Lien GitHub
-https://github.com/vivianebenevides/31w/tree/exer2
+https://github.com/vivianebenevides/31w/tree/tp1
+https://github.com/vivianebenevides/carrousel-31w/tree/tp1 
 
