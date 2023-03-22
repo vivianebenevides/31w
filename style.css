@@ -348,7 +348,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(243, 239, 239);
+  background-color: transparent;
 }
 
 .logomenu img {
@@ -628,12 +628,13 @@ p {
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: rgb(243, 239, 239);
+  background-color: transparent;
 }
 
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+  background-color: rgb(243, 239, 239);
 }
 
 .site__footer {
