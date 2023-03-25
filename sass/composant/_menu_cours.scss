@@ -1,3 +1,4 @@
+.menu-note-wp-container,
 .menu-cours-container { //nav
 
 .menu { //ul
@@ -12,8 +13,16 @@
         list-style-type: none;
 
         a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-variant: small-caps;
+            // background-color: rgba(255,355,255, .5);
             .cours__sigle{
-                padding: 3px;
+                padding: 1px 3px;
+                @media screen and (min-width: 1000px) {
+                    padding: 5px;
+                }
             }
             .cours__titre{
                 display: none;
@@ -22,6 +31,9 @@
                 }
             }
         }
+    a:hover {
+         background-color: rgba(255,355,255, .5);
+    }
     }  
 }
 
