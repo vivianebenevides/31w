@@ -8,9 +8,10 @@ get_header() ?>
 <?php 
 if (have_posts()):
     while (have_posts()) : the_post();
-        // usar funcao in_category (ver aside em template-parts)
-        the_title('<h1>','</h1>');
-        the_content();
+        if (in_category('cours')) {
+            the_title('<h1>','</h1>');
+            the_content();
+        }
     endwhile;
 endif;
 ?>   
