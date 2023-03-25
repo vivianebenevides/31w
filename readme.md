@@ -1,18 +1,19 @@
-# TP1
-## Thème et extension
+# Exer3
+
 ### Auteur: Viviane Silva
+### Titre: Introduction à système de gestion de contenu et Photos de Montréal
+### Description : Site en développement pour la matière Introduction au système de gestion de contenu du cours de Développement web du Cégep Maisonneuve.
+
 #### Objectifs
-#### Créer un thème qui aura les caractéristiques suivantes:
-- Entièrement adaptatif
-- Plusieurs menus
-- Entête de page
-- Pied de page
-- Le thème affichera différents types d'article facilement accessible à partir de la page d'accueuil. Le site contiendra aussi une extension permettant de contrôler un carrousel d'image.
+#### L'exercice vous permettra de vous familiariser avec les champs personnalisés:
+- Ajouter, gérer et utiliser des champs personnalisés
+- Adapter le menu aside et le menu de l'entete
+- Déployer votre projet sur le serveur Siteground
 
 #### Lien SiteGround
 https://aecweb22.sg-host.com/
 
 #### Lien GitHub
-- 31w : https://github.com/vivianebenevides/31w/tree/tp1
+- 31w : https://github.com/vivianebenevides/31w/tree/exer3
 - Carrousel : https://github.com/vivianebenevides/carrousel-31w/tree/tp1 
 
