@@ -1,9 +1,19 @@
-# Exercice #1
-## Installation de Wordpress et création de thème
-### Auteur: Eddy Martin
+# Exer3
+
+### Auteur: Viviane Silva
+### Titre: Introduction à système de gestion de contenu et Photos de Montréal
+### Description : Site en développement pour la matière Introduction au système de gestion de contenu du cours de Développement web du Cégep Maisonneuve.
+
 #### Objectifs
-- Installer WP
-- Créer un thème simple
-- Créer une structure Sass
-- Créer un minimum de 10 commits
-- Déployer le site local vers un serveur distant
+#### L'exercice vous permettra de vous familiariser avec les champs personnalisés:
+- Ajouter, gérer et utiliser des champs personnalisés
+- Adapter le menu aside et le menu de l'entete
+- Déployer votre projet sur le serveur Siteground
+
+#### Lien SiteGround
+https://aecweb22.sg-host.com/
+
+#### Lien GitHub
+- 31w : https://github.com/vivianebenevides/31w/tree/exer3
+- Carrousel : https://github.com/vivianebenevides/carrousel-31w/tree/tp1 
+

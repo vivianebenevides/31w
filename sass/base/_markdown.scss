@@ -1,0 +1,48 @@
+ul,ol{
+
+}
+strong, b { //: le texte en gras
+
+} 
+em, i { //: le texte en italique
+
+}    
+a { //: les liens hypertexte
+
+} 
+ul, li { //: les listes à puces
+
+}
+code { //: le texte en code
+
+}
+hr { //: la ligne de séparation horizontale
+    
+}
+
+.site__main {
+    text-align: center;
+
+    li {
+        list-style: none;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: #590000;
+    }
+
+    h2 {
+        font-size: 22px;
+
+    }
+
+    h1 {
+        font-size: 26px;
+        color: #ae3f26;
+    }
+}

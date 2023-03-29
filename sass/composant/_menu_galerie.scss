@@ -1,0 +1,21 @@
+.menu-galerie-container { //nav
+
+.menu { //ul
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    @media screen and (min-width: 1000px) {
+            flex-direction: column;
+        }
+
+    .menu-item{ //li
+        list-style-type: none;
+        padding: 5px;
+            a{
+                padding: 10px;
+            }
+    }  
+}
+
+}
