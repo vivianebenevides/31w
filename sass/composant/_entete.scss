@@ -24,7 +24,7 @@
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-end;
-    padding-right: 30px;
+    padding-right: 50px;
     // gap: 30px;
     @media screen and (min-width: 1000px) {
         flex-direction: row;
@@ -54,6 +54,7 @@
 .menu-entete-container {
     transform: translateX(300px);
     transition: transform .25s;
+    text-transform: uppercase;
     @media screen and (min-width: 500px) {
         transform: translateX(0);
     }

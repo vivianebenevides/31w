@@ -360,7 +360,7 @@ html {
   flex-direction: column-reverse;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 @media screen and (min-width: 1000px) {
   .menusearch {
@@ -391,6 +391,7 @@ html {
 .menu-entete-container {
   transform: translateX(300px);
   transition: transform 0.25s;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 500px) {
   .menu-entete-container {
