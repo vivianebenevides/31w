@@ -24,7 +24,7 @@
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-end;
-    // margin-right: 30px;
+    padding-right: 30px;
     // gap: 30px;
     @media screen and (min-width: 1000px) {
         flex-direction: row;
@@ -99,5 +99,16 @@
 .recherche {
     display: flex;
     flex-wrap: nowrap;
+}
+
+.texte-entete {
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+    h4 {
+        max-width: 25ch;
+    }
 }
 

@@ -6,9 +6,11 @@ get_header() ?>
 <main class="site__main">
     <!-- <code>front-page.php</code> -->
     <section class="viewport">
-        <h1>Tp2</h1>
-        <h4>Auteur : Viviane Silva</h4>
-        <h4>Cours : 31w - Introduction à un gestionnaire de contenu</h4>
+        <div class="texte-entete">
+            <h1>Exer4</h1>
+            <h4>Auteur : Viviane Silva</h4>
+            <h4>Cours : 31w - Introduction à un gestionnaire de contenu</h4>
+        </div>
         <?php wp_nav_menu(array(
             "menu"=>"evenement",
             "container"=>"nav",

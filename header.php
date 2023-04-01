@@ -27,8 +27,8 @@
         $classe = "";
         if (is_front_page() == false){$classe="invisible";}
         ?>
-        <h1 class="site__titre <?= $classe ?>"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-        <h2 class="site__soustitre <?= $classe ?>"><?php bloginfo('description'); ?></h2> 
+        <!-- <h1 class="site__titre <?= $classe ?>"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <h2 class="site__soustitre <?= $classe ?>"><?php bloginfo('description'); ?></h2>  -->
     </header>
     <?php
     if(is_front_page() == false)

@@ -360,6 +360,7 @@ html {
   flex-direction: column-reverse;
   justify-content: flex-start;
   align-items: flex-end;
+  padding-right: 30px;
 }
 @media screen and (min-width: 1000px) {
   .menusearch {
@@ -436,16 +437,29 @@ html {
   flex-wrap: nowrap;
 }
 
+.texte-entete {
+  text-align: left;
+  padding-left: 120px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.texte-entete h4 {
+  max-width: 25ch;
+}
+
 .blocflex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .blocflex__article {
   margin: 10px;
   padding: 5px;
   border: 1px solid #aaa;
+  border-radius: 5px;
   flex: 1 0 300px;
   background-color: rgb(243, 239, 239);
   text-align: center;
@@ -593,6 +607,9 @@ body {
   flex: 1 0 33%;
 }
 
+.menu__bloc {
+  margin: 0 auto;
+}
 .menu__bloc .menu {
   display: flex;
   flex-direction: column;
@@ -616,6 +633,11 @@ body {
 .viewport {
   min-height: 100vh;
   padding: 0 3rem;
+}
+
+.page-evenement {
+  background-color: rgb(243, 239, 239);
+  padding-bottom: 20px;
 }
 
 /* --------------------------------- BASE */
@@ -698,14 +720,13 @@ p {
 */
 .site__entete {
   grid-area: header;
-  padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(243, 239, 239);
 }
 
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: rgb(243, 239, 239);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .site__footer {
