@@ -593,6 +593,25 @@ body {
   flex: 1 0 33%;
 }
 
+.menu__bloc .menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.menu__bloc .menu .menu-item {
+  border: 1px solid #aaa;
+  flex: 1 0 33%;
+}
+.menu__bloc .menu .menu-item a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.viewport {
+  min-height: 100vh;
+  padding: 0 3rem;
+}
+
 /* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
@@ -649,7 +668,7 @@ p {
   list-style: none;
 }
 .site__main p {
-  font-size: 14px;
+  font-size: 18px;
 }
 .site__main h3 {
   font-size: 20px;
@@ -659,7 +678,7 @@ p {
   font-size: 22px;
 }
 .site__main h1 {
-  font-size: 26px;
+  font-size: 40px;
   color: #ae3f26;
 }
 

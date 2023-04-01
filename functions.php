@@ -8,25 +8,8 @@ function ajouter_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'ajouter_styles' );
 
-/* ----------------------------------- Add_theme_support */
-
-add_theme_support( 'html5', 
-                    array( 'search-form',  
-                           'gallery', 
-                           'caption' ) );
-
-add_theme_support( 'title-tag' );
-
-add_theme_support( 'custom-logo', 
-                    array(
-                        'height' => 150,
-                        'width'  => 150,
-                            ) );
-
-add_theme_support('custom-background');
-
-
 /*---------------------------------- Enregistrement des menus */
+
 function enregistrement_des_menus(){
     register_nav_menus( array(
         'menu_entete' => 'Menu entête',
@@ -34,7 +17,6 @@ function enregistrement_des_menus(){
     ) );
 }
 add_action( 'after_setup_theme', 'enregistrement_des_menus', 0 );
-
 
 /**
  * Modifie la requete principale de Wordpress avant qu'elle soit exécuté
@@ -53,6 +35,25 @@ function cidweb_modifie_requete_principal( $query ) {
         }
     }
 add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );
+
+
+/* ----------------------------------- Add_theme_support */
+
+add_theme_support( 'html5', 
+                    array( 'search-form',  
+                           'gallery', 
+                           'caption' ) );
+
+add_theme_support( 'title-tag' );
+
+add_theme_support( 'custom-logo', 
+                    array(
+                        'height' => 150,
+                        'width'  => 150,
+                            ) );
+
+add_theme_support('custom-background');
+add_theme_support('post-thumbnails');
 
 /**
  * Permet de modifier les titres tu menu "cours"
@@ -74,6 +75,11 @@ function perso_menu_item_title($title, $item, $args) {
             $title = substr($title,1);
         }
     }
+    // if($args->menu == 'evenement') {
+    //     if (substr($title,0,1) == '0') {
+    //         $title = substr($title,1);
+    //     }
+    // }
     
 return $title ;
 }
