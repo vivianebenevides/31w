@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body class="custom-background site <?= (is_front_page() ? "no-aside" : ""); ?> ">
-    <header class="site__entete">
+    <header class="site__entete" id="top">
         <section class="logomenu">
             <?php the_custom_logo(); ?>
             <div class="menusearch">
@@ -17,8 +17,6 @@
                     'menu' => 'entete',
                     'container' => 'nav'
                 )); ?>
-            </div>
-            <div class="menusearch">
                 <?= get_search_form(); ?>
                 <label for="chkBurger" class="burger">
                 <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32">
