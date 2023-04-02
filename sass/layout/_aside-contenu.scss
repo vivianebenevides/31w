@@ -12,6 +12,8 @@
 
 .site__main {
   grid-area: main;
+  // max-width: 100%;
+  // flex-wrap: wrap;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
   // background-color: rgb(243 239 239);
   //background-color: transparent;
@@ -35,7 +37,7 @@
 
 /* body ou un conteneur globale */
 .site {
-  width: 100vw;
+  // max-width: 100%;
   overflow-x: hidden;
   display: grid;
   grid-template-columns: auto;
