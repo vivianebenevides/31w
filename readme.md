@@ -1,7 +1,7 @@
 # Exer4
 
 ### Auteur: Viviane Silva
-### Titre: Introduction à système de gestion de contenu et Photos de Montréal
+### Titre: Introduction à système de gestion de contenu
 ### Description : Site en développement pour la matière Introduction au système de gestion de contenu du cours de Développement web du Cégep Maisonneuve.
 
 #### Objectifs
