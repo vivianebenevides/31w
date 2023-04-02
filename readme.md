@@ -1,13 +1,15 @@
-# Exer3
+# Exer4
 
 ### Auteur: Viviane Silva
 ### Titre: Introduction à système de gestion de contenu et Photos de Montréal
 ### Description : Site en développement pour la matière Introduction au système de gestion de contenu du cours de Développement web du Cégep Maisonneuve.
 
 #### Objectifs
-#### L'exercice vous permettra de vous familiariser avec les champs personnalisés:
+#### Cet exercice est une deuxième étape de développement du TP2 
 - Ajouter, gérer et utiliser des champs personnalisés
-- Adapter le menu aside et le menu de l'entete
+- Ajouter trois «sidebar» dans le footer
+- Ajout d'un template de page
+- Ajout d'image mise-en-avant
 - Déployer votre projet sur le serveur Siteground
 
 #### Lien SiteGround
