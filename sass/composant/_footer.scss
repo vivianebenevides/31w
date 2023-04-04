@@ -6,6 +6,7 @@
 .footer__widget {
     display: flex;
     flex-direction: row;
+    background-color: #590000;
     div{
         flex: 1 0 33%;
     }
@@ -22,6 +23,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 20px;
     div{
         flex: 1 0 33%;
         .footer__lien__nav { //nav
@@ -37,10 +39,11 @@
                             text-decoration: none;
                             text-transform: uppercase;
                             font-size: 24px;
-                            color:  #ae3f26; 
+                            color:   rgb(243 239 239); 
                         }
                         a:hover {
-                            color: #302421;
+                            //color: #302421;
+                            color:  #ae3f26;
                         }
                 }
             }
@@ -54,10 +57,10 @@
 }
 
 .site__footer {
-    
-    p {
+
+    section>p {
         font-size: 12px;
-        color: #590000;
+        color: rgb(243 239 239); 
         text-align: center;
     }
 }
@@ -68,6 +71,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 50px;
+    background-color:  rgb(243 239 239);
 
     @media screen and (max-width: 780px) {
         flex-direction: column;
@@ -77,9 +81,13 @@
 }
 
 .texte-pied-de-page {
-    text-align: center;
-    line-height: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
     padding: 20px;
+    height: 200px;
     
     h3 {
         font-size: 18px;
@@ -88,6 +96,7 @@
 
     p {
         font-size: 14px;
+        color: #590000;
     }
 
     a {
