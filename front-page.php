@@ -5,12 +5,16 @@
 get_header() ?>
 <main class="site__main">
     <!-- <code>front-page.php</code> -->
-    <section class="viewport">
+    <section class="viewport-entete">
         <div class="texte-entete">
             <h1>Tp2</h1>
             <h4>Auteur : Viviane Silva</h4>
             <h4>Cours : 31w - Introduction à un gestionnaire de contenu</h4>
         </div>
+    </section>
+
+    <section class="viewport">
+        <h1>Prochains Événements</h1>
         <?php wp_nav_menu(array(
             "menu"=>"evenement",
             "container"=>"nav",
