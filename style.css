@@ -783,6 +783,36 @@ body {
   padding-bottom: 20px;
 }
 
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(243, 239, 239);
+  align-items: center;
+  border: 2px solid #ae3f26;
+}
+.page-404 h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  color: gray;
+}
+.page-404 h2 {
+  font-size: 40px;
+  color: #ae3f26;
+  padding-top: 30px;
+}
+
+.nb-404 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+}
+.nb-404 p {
+  font-size: 200px;
+}
+
 /* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
@@ -878,7 +908,7 @@ p {
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .site__footer {

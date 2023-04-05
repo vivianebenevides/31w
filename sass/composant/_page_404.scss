@@ -1,0 +1,33 @@
+.page-404 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(243 239 239);
+    align-items: center;
+    border: 2px solid #ae3f26;;
+    
+    h1{
+        font-size: 120px;
+        text-transform: uppercase;
+        color: gray;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #ae3f26;
+        padding-top: 30px;
+    }
+}
+
+
+.nb-404 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    
+    p{
+        font-size: 200px;
+    }
+}
