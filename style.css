@@ -383,9 +383,14 @@ html {
     margin-top: 20px;
   }
 }
+@media screen and (min-width: 500px) and (max-width: 780px) {
+  .menusearch {
+    gap: 0;
+  }
+}
 @media screen and (max-width: 500px) {
   .menusearch {
-    flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -437,12 +442,20 @@ html {
 @media screen and (min-width: 501px) and (max-width: 780px) {
   .menu-entete-container .menu {
     flex-direction: column;
+    gap: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu-entete-container .menu {
+    flex-direction: column;
+    gap: 0;
   }
 }
 .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
   min-width: 150px;
   transition: all 0.2s ease-in-out;
+  max-height: 50px;
 }
 .menu-entete-container .menu .menu-item a {
   white-space: nowrap;
