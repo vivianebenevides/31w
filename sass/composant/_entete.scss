@@ -66,6 +66,7 @@
     transform: translateX(300px);
     transition: transform .25s;
     text-transform: uppercase;
+
     @media screen and (min-width: 500px) {
         transform: translateX(0);
     }
@@ -78,6 +79,7 @@
     list-style-type: none;
     flex-wrap: wrap;
     max-width: 100%;
+    
     @media screen and (min-width: 500px) {
         flex-direction: row;
         justify-content: flex-end;
@@ -92,6 +94,7 @@
 .menu-item { // li
     flex : 1 0 70px;
     min-width: 150px;
+    transition: all 0.2s ease-in-out;
 
     a{
         white-space: nowrap;
@@ -104,6 +107,14 @@
         color: #590000;
         
     }
+}
+
+.menu-item:hover {
+    //background-color: #ae3f26;
+    //box-shadow: 0 0 10px lightgray;
+    transform: scale(1.1);
+
+
 }
 
 }

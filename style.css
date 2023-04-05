@@ -442,6 +442,7 @@ html {
 .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
   min-width: 150px;
+  transition: all 0.2s ease-in-out;
 }
 .menu-entete-container .menu .menu-item a {
   white-space: nowrap;
@@ -451,6 +452,9 @@ html {
 }
 .menu-entete-container .menu .menu-item a:hover {
   color: #590000;
+}
+.menu-entete-container .menu .menu-item:hover {
+  transform: scale(1.1);
 }
 
 .recherche {
@@ -485,6 +489,7 @@ html {
   flex: 1 0 300px;
   background-color: rgb(243, 239, 239);
   text-align: center;
+  transition: all 0.2s ease-in-out;
 }
 
 a {
@@ -492,7 +497,13 @@ a {
 }
 
 a:hover {
-  color: #302421;
+  color: rgb(243, 239, 239);
+}
+
+.blocflex__article:hover {
+  background-color: #ae3f26;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 
 .blocflex__galerie {
@@ -729,14 +740,20 @@ body {
 .menu__bloc .menu .menu-item {
   border: 1px solid rgb(243, 239, 239);
   border-radius: 5px;
-  background-color: #ae3f26;
+  background-color: #590000;
   padding: 10px;
   flex: 1 0 33%;
+  transition: all 0.2s ease-in-out;
 }
 .menu__bloc .menu .menu-item a {
   color: rgb(243, 239, 239);
   font-size: 2rem;
   text-decoration: none;
+}
+.menu__bloc .menu .menu-item:hover {
+  background-color: #ae3f26;
+  box-shadow: 0 0 10px lightgray;
+  transform: scale(1.02);
 }
 
 .viewport {

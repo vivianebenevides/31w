@@ -14,13 +14,20 @@
         flex: 1 0 300px;
         background-color: rgb(243 239 239);
         text-align: center;
+        transition: all 0.2s ease-in-out;
     }
     a {
         color: #590000; 
     }
     a:hover {
-        color: #302421;
+        color: rgb(243 239 239);
     }
+
+.blocflex__article:hover {
+        background-color: #ae3f26;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        transform: scale(1.05);
+}
 
 .blocflex__galerie {
         flex: 1 0 100%;
