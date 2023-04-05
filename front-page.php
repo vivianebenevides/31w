@@ -7,7 +7,7 @@ get_header() ?>
     <!-- <code>front-page.php</code> -->
     <section class="viewport">
         <div class="texte-entete">
-            <h1>Exer4 / Tp2</h1>
+            <h1>Tp2</h1>
             <h4>Auteur : Viviane Silva</h4>
             <h4>Cours : 31w - Introduction à un gestionnaire de contenu</h4>
         </div>
