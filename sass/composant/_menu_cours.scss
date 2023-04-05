@@ -18,15 +18,18 @@
             align-items: center;
             text-decoration: none;
             font-variant: small-caps;
+          
             // background-color: rgba(255,355,255, .5);
             .cours__sigle{
                 padding: 1px 3px;
+                font-size: 20px; 
                 @media screen and (min-width: 1000px) {
                     padding: 5px;
                 }
             }
             .cours__titre{
                 display: none;
+                font-size: 20px; 
                 @media screen and (min-width: 1000px) {
                     display: block;
                 }

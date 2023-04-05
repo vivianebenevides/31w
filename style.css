@@ -554,6 +554,7 @@ body {
 .menu-cours-container .menu .menu-item a .cours__sigle,
 .menu-galerie-container .menu .menu-item a .cours__sigle {
   padding: 1px 3px;
+  font-size: 20px;
 }
 @media screen and (min-width: 1000px) {
   .menu-note-wp-container .menu .menu-item a .cours__sigle,
@@ -566,6 +567,7 @@ body {
 .menu-cours-container .menu .menu-item a .cours__titre,
 .menu-galerie-container .menu .menu-item a .cours__titre {
   display: none;
+  font-size: 20px;
 }
 @media screen and (min-width: 1000px) {
   .menu-note-wp-container .menu .menu-item a .cours__titre,
@@ -597,6 +599,7 @@ body {
 }
 .menu-note-wp-container .menu .menu-item a {
   padding: 10px;
+  font-size: 20px;
 }
 
 .menu-galerie-container .menu {
@@ -616,6 +619,7 @@ body {
 }
 .menu-galerie-container .menu .menu-item a {
   padding: 10px;
+  font-size: 20px;
 }
 
 .site__footer {
@@ -693,6 +697,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
   }
 }
 
@@ -717,6 +722,12 @@ body {
   font-size: 14px;
   text-decoration: none;
 }
+@media screen and (max-width: 780px) {
+  .texte-pied-de-page {
+    padding: 0;
+    height: 100%;
+  }
+}
 
 .liens-pied-de-page {
   display: flex;
@@ -726,6 +737,12 @@ body {
 .liens-pied-de-page img:hover {
   color: #ae3f26;
 }
+@media screen and (max-width: 780px) {
+  .liens-pied-de-page {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
 
 .menu__bloc {
   margin: 0 auto;
@@ -734,7 +751,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   list-style-type: none;
 }
 .menu__bloc .menu .menu-item {
@@ -747,7 +764,7 @@ body {
 }
 .menu__bloc .menu .menu-item a {
   color: rgb(243, 239, 239);
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 .menu__bloc .menu .menu-item:hover {
@@ -776,7 +793,7 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(0.5625rem, -0.25rem + 2.6vw, 2.1875rem);
+  font-size: clamp(1rem, 0.6667rem + 1.5238vw, 2rem);
 }
 
 h4 {
@@ -791,16 +808,15 @@ h6 {
   font-size: clamp(0.5rem, 0.125rem + 1.2vw, 1.25rem);
 }
 
-P {
+p {
   font-size: clamp(0.5rem, 0.125rem + 1.2vw, 1.1rem);
 }
 
-h1 {
+h1, h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   /*_ font-family: "Slackey", cursive; _*/
 }
 
@@ -824,16 +840,26 @@ p {
 .site__main p {
   font-size: 18px;
 }
+.site__main h1 {
+  font-size: 52px;
+  color: #ae3f26;
+}
+.site__main h2 {
+  font-size: 40px;
+  color: #ae3f26;
+}
 .site__main h3 {
   font-size: 20px;
   color: #590000;
 }
-.site__main h2 {
-  font-size: 22px;
+.site__main h4 {
+  font-size: 30px;
 }
-.site__main h1 {
-  font-size: 40px;
-  color: #ae3f26;
+.site__main h5 {
+  font-size: 20px;
+}
+.site__main h6 {
+  font-size: 18px;
 }
 
 .invisible {
@@ -852,7 +878,7 @@ p {
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .site__footer {

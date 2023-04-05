@@ -31,18 +31,32 @@ hr { //: la ligne de séparation horizontale
         font-size: 18px;
     }
 
+    h1 {
+        font-size: 52px;
+        color: #ae3f26;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #ae3f26;
+
+    }
+
     h3 {
         font-size: 20px;
         color: #590000;
     }
 
-    h2 {
-        font-size: 22px;
-
+    h4 {
+        font-size: 30px;
     }
 
-    h1 {
-        font-size: 40px;
-        color: #ae3f26;
+    h5 {
+        font-size: 20px;
     }
+
+    h6 {
+        font-size: 18px;
+    }
+
 }

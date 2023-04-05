@@ -9,7 +9,7 @@ get_header() ?>
     if (have_posts()):
         while (have_posts()) : the_post();
             // usar funcao in_category (ver aside em template-parts)
-            the_title('<h1>','</h1>');
+            the_title('<h2>','</h2>');
             the_content();
         endwhile;
     endif;
