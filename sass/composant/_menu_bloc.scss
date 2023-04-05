@@ -9,20 +9,20 @@
         .menu-item {  //li
             border: 1px solid rgb(243 239 239);
             border-radius: 5px;
-            background-color: #590000;
+            background-color: #ae3f26;
             padding: 10px;
             flex: 1 0 33%;
             transition: all 0.2s ease-in-out;
 
             a {
                 color: rgb(243 239 239);
-                font-size: 1.5rem;
+                font-size: 2rem;
                 text-decoration: none;
             }
         }
 
         .menu-item:hover {
-            background-color: #ae3f26;
+            background-color: #590000;
             box-shadow: 0 0 10px lightgray;
             transform: scale(1.02);
 
@@ -31,4 +31,62 @@
 
     }
 
+}
+
+.evenement__porte {
+    background-image: url('https://s2.svgbox.net/social.svg?ic=nextdoor');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    
+    span {
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+}
+
+.evenement__salon {
+    background-image: url('https://s2.svgbox.net/materialui.svg?ic=business_center');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    
+    span {
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+}
+
+.evenement__atelier {
+    background-image: url('https://s2.svgbox.net/materialui.svg?ic=business_center');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    
+    span {
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+}
+
+.evenement__concours {
+    background-image: url('https://s2.svgbox.net/materialui.svg?ic=add_a_photo');
+    background-repeat: no-repeat;
+    background-size: 80px 90px;
+    
+    a {
+        max-width: 30ch;
+    }
+    span {
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+}
+
+.evenement__social {
+    background-image: url('https://s2.svgbox.net/materialui.svg?ic=celebration');
+    background-repeat: no-repeat;
+    background-size: 80px 90px;
+    
+    span {
+        font-style: italic;
+        font-size: 1.5rem;
+    }
 }
