@@ -12,15 +12,19 @@
         <section class="logomenu">
             <?php the_custom_logo(); ?>
             <div class="menusearch">
-                <input type="checkbox" id="chkBurger">
-                <?php wp_nav_menu(array(
-                    'menu' => 'entete',
-                    'container' => 'nav'
-                )); ?>
-                <?= get_search_form(); ?>
-                <label for="chkBurger" class="burger">
-                <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32">
-                </label>
+                <div class="menusearch-search">
+                    <?= get_search_form(); ?>
+                    <label for="chkBurger" class="burger">
+                    <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32">
+                    </label>
+                </div>
+                <div class="menusearch-menu">
+                    <input type="checkbox" id="chkBurger">
+                    <?php wp_nav_menu(array(
+                        'menu' => 'entete',
+                        'container' => 'nav'
+                    )); ?>
+                </div>
             </div>
         </section>
         <?php 
