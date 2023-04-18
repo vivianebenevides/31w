@@ -28,6 +28,12 @@
 .recherche-404  input::placeholder {
     font-size: 25px; 
   }
+
+.menu404{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
   
 
 // .nb-404 {
