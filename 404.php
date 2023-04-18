@@ -9,6 +9,10 @@ get_header() ?>
     <section class="page-404">
         <h1>Erreur 404</h1>
         <h2>Page introuvable, vous pouvez tenter une recherche</h2>
+
+        <div class="recherche-404">
+                    <?= get_search_form(); ?>
+        </div>
     </section>
 </main> 
 <?php get_footer(); ?>  

@@ -20,6 +20,15 @@
     }
 }
 
+.recherche-404 input[type="search"] {
+    width: 500px; 
+    height: 40px; 
+  }
+  
+.recherche-404  input::placeholder {
+    font-size: 25px; 
+  }
+  
 
 // .nb-404 {
 //     display: flex;
