@@ -867,10 +867,9 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background-image: url("https://www.basiliquenotredame.ca/public/media/771d5f60-2808-11ed-9c95-b12f6befc00f.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.8);
   align-items: center;
   border: 2px solid #ae3f26;
   color: #ae3f26;
@@ -895,7 +894,15 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-} /* --------------------------------- BASE */
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.menu404 a:hover {
+  color: brown;
+}
+
+/* --------------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
 }
