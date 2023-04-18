@@ -2,32 +2,33 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: rgb(243 239 239);
+    width: 100%;
+    background-image: url('https://www.basiliquenotredame.ca/public/media/771d5f60-2808-11ed-9c95-b12f6befc00f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
     align-items: center;
-    border: 2px solid #ae3f26;;
-    
+    border: 2px solid #ae3f26;
+    color: #ae3f26;
+
     h1{
-        font-size: 120px;
-        text-transform: uppercase;
-        color: gray;
+        font-size: 80px;
     }
 
     h2 {
-        font-size: 40px;
-        color: #ae3f26;
-        padding-top: 30px;
+        font-size: 25px;
     }
 }
 
 
-.nb-404 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 15%;
+// .nb-404 {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+//     height: 15%;
     
-    p{
-        font-size: 200px;
-    }
-}
+//     p{
+//         font-size: 200px;
+//     }
+// }
